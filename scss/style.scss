@@ -1,0 +1,58 @@
+html {
+  font-family: Courier New;
+}
+
+.he-body {
+  text-align: left;
+  line-height: 1.4;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.he-section {
+  opacity: 1;
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.he-grid{
+  position: relative;
+  float: left;
+  width: 33%;
+  display: block;
+  vertical-align: top;
+  overflow: hidden;
+  cursor: pointer;
+  border:1px solid #fff;
+}
+
+.he-text {
+  font-size: 1.6em;
+  font-weight: 400;
+  animation: myframes 2s ease-in-out;
+}
+
+.he-project {
+  width: 98%;
+  position: relative;
+}
+
+@keyframes myframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.img-resize {
+  padding: 10px;
+  width: 5%;
+  height: 2%;
+  float: right;
+}
+
+
+
+
